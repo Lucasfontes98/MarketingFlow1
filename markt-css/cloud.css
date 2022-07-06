@@ -84,6 +84,9 @@ img {
 .cognito.c-med .c-forms-form,
 .cognito.c-med .c-forms-form div {
     background-color: #b8c8d6 !important;
+    float: left;
+    margin-left: 20px;
+    width: 50%;
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
@@ -151,7 +154,7 @@ footer {
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 40px;
    
 }
 
