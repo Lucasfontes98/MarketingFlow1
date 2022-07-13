@@ -73,8 +73,10 @@ img {
 #tenho-interesse {
     background-color: #b8c8d6;
     width: 100%;
+    text-align: center;  
 
 }
+
 
 #tenho-interesse form,
 .cog-form__content,
@@ -85,8 +87,8 @@ img {
 .cognito.c-med .c-forms-form div {
     background-color: #b8c8d6 !important;
     float: left;
-    margin-left: 20px;
-    width: 50%;
+    width: 100%;
+    margin-left: 40%;
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
@@ -112,11 +114,7 @@ section {
     padding: 20px 0;
 }
 
-section nav {
-    display: block;
-    float: left;
-    width: 30%;
-}
+
 
 nav li {
     background-color: #efefef;
@@ -140,8 +138,10 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 100%;
 }
+
+
 
 footer {
     background-color: #254159;  
@@ -149,6 +149,7 @@ footer {
     float: left;
     padding: 20px 0;
     width: 100%;
+    text-align: center;
 }
 
 footer p {
@@ -164,11 +165,9 @@ footer small {
 }
 
 .cognito {
-    height: 500px !important;
+    height: 550px !important;
     overflow: hidden !important;
     padding: 30px 0;
-    margin-right: 50px;
-    margin-left: 10px;
     
 }
 
@@ -182,8 +181,8 @@ footer small {
         padding-left: 5%;
         padding-right: 1%;
         margin: 10vh 10vh 0 0 ;
-        width: 30vw;
-        float: right;
+        width: 100%;
+       
     }
 }
 
@@ -192,7 +191,7 @@ footer small {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 99vw;
+    width: 98vw;
     height: 70vh;
 
 }
@@ -208,6 +207,7 @@ footer small {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, .6);
     margin-bottom: 5rem;
+    margin-left: 10px;
     
     
 }
@@ -229,6 +229,7 @@ padding: 10px 15px;
 font-weight: 300;
 text-decoration: none;
 float: left;
+margin-left: 10px;
 
 
 
@@ -303,11 +304,36 @@ header p {
        }
 
        dt, h1, p{
-        margin: 0 0 5px 5px;
+        margin: 0 0 5px 15px;
       }
 
     .container{
         margin: 0;
+    }
+
+    #tenho-interesse form,
+    .cog-form__content,
+    .cog-page__navigation,
+    .cog-row,
+    .cog-body,
+    .cognito.c-med .c-forms-form,
+    .cognito.c-med .c-forms-form div{
+    
+        background-color: #b8c8d6 !important;
+        float: left;
+        width: 98%;
+        margin-left: 35%;
+        margin-right: 2%;
+
+    }
+    
+    .cognito {
+        height: 550px !important;
+        overflow: hidden !important;
+        padding: 30px 0;
+        float: left;
+        width: 100%;
+        
     }
  
   
@@ -329,7 +355,6 @@ header p {
 
     #saiba-mais p{
 
-        width: 90%;
         padding: 0;
        }
        #saiba-mais img{
@@ -338,6 +363,30 @@ header p {
 
     .button-cta{
         float: left;
+    }
+
+    #tenho-interesse form,
+    .cog-form__content,
+    .cog-page__navigation,
+    .cog-row,
+    .cog-body,
+    .cognito.c-med .c-forms-form,
+    .cognito.c-med .c-forms-form div{
+    
+        background-color: #b8c8d6 !important;
+        float: left;
+        width: 85%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .cognito {
+        height: 550px !important;
+        overflow: hidden !important;
+        padding: 30px 0;
+        float: left;
+        width: 100%;
+        
     }
 
 
@@ -353,7 +402,7 @@ header p {
     }
 
     .container{
-        width: 100%;
+        width: 90%;
         margin: 0;
     }
 
@@ -363,7 +412,7 @@ header p {
 
    #saiba-mais p{
 
-    width: 80%;
+    width: 100%;
     padding: 0;
    }
    #saiba-mais img{
@@ -380,9 +429,47 @@ header p {
     article,
     .coluna{
       width: 100%;
+    }
+
+      #tenho-interesse form,
+.cog-form__content,
+.cog-page__navigation,
+.cog-row,
+.cog-body,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div{
+
+    background-color: #b8c8d6 !important;
+    float: left;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.cognito {
+    height: 550px !important;
+    overflow: hidden !important;
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
 
   
   
     }
   
-  }
+
