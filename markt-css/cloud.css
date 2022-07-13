@@ -397,7 +397,7 @@ header p {
   
 
     header{
-      height: 100px;
+      height: 60px;
       width: 100%;
     }
 
@@ -465,11 +465,13 @@ p{
 
 header p {
     text-align: center;
+    font-size: 20px;
 }
 
-
-  
-  
+header img{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    display: inline;  
     }
-  
-
+}
